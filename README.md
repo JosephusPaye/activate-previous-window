@@ -8,6 +8,19 @@ A native Node.js module for switching to the previously active window on Windows
 npm install JosephusPaye/activate-previous-window --save
 ```
 
+## Usage
+
+```js
+const { activatePreviousWindow, activatePreviousWindowInChildProcess } = require('activate-previous-window');
+
+// Activate the previous window
+activatePreviousWindow();
+
+// Same as above, but run the activation using the standalone binary in a child process.
+// Works in environments like Electron, where the Node process is not the same as the main window's.
+activatePreviousWindowInChildProcess();
+```
+
 ## How it works
 
 The module follows the [approach taken here](https://stackoverflow.com/a/13660585). That means it:
