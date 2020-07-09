@@ -1,0 +1,18 @@
+{
+  "name": "activate-previous-window",
+  "version": "0.1.0",
+  "description": "Programmatically switch to the previously active window on Windows",
+  "main": "index.js",
+  "author": "Josephus Paye II",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "bindings": "~1.5.0",
+    "node-addon-api": "^3.0.0"
+  },
+  "scripts": {
+    "build": "node-gyp build",
+    "test": "node test.js"
+  },
+  "gypfile": true
+}
