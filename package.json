@@ -11,7 +11,8 @@
     "node-addon-api": "^3.0.0"
   },
   "scripts": {
-    "build": "node-gyp build",
+    "build": "node-gyp rebuild",
+    "build-standalone": "cl standalone.cpp -o bin/activate-previous-window.exe /O1",
     "test": "node test.js"
   },
   "gypfile": true

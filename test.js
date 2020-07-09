@@ -1,3 +1,3 @@
-const { activatePreviousWindow } = require('./index');
+const { activatePreviousWindowInChildProcess } = require('./index');
 
-activatePreviousWindow();
+activatePreviousWindowInChildProcess();
