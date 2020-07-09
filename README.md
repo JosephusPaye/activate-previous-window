@@ -1,6 +1,6 @@
 ## Activate Previous Window
 
-A native Node.js module for switching to the previously active window on Windows. It programatically replicates what happens when you quickly press and release <kbd>Alt+Tab</kbd>.
+A native Node.js module for switching to the previously active window on Windows. It programatically replicates what happens when you quickly press and release <kbd>Alt</kbd>+<kbd>Tab</kbd>.
 
 ## Installation
 
