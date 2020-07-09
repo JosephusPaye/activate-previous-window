@@ -1,4 +1,4 @@
-## Activate Previous Window
+# Activate Previous Window
 
 A native Node.js module for switching to the previously active window on Windows. It programatically replicates what happens when you quickly press and release <kbd>Alt</kbd>+<kbd>Tab</kbd>.
 
@@ -8,7 +8,7 @@ A native Node.js module for switching to the previously active window on Windows
 npm install JosephusPaye/activate-previous-window --save
 ```
 
-### How it works
+## How it works
 
 The module follows the [approach taken here](https://stackoverflow.com/a/13660585). That means it:
 
@@ -16,7 +16,7 @@ The module follows the [approach taken here](https://stackoverflow.com/a/1366058
 - Chooses the second window that is visible and has a non-empty title. This is assumes that the topmost (first) window in z-order is the currently active window, and the second window below that is the previously active window.
 - Switches to the chosen window using [SetForegroundWindow()](https://docs.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-setforegroundwindow).
 
-### Alternative approaches
+## Alternative approaches
 
 I tried a few other approaches that didn't work:
 
